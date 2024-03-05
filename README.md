@@ -1,6 +1,6 @@
 # fibonacci-on-php
 # Generador de Serie de Fibonacci en PHP
-
+ 
 ## Descripción del código:
 
 El siguiente código PHP genera y muestra en pantalla los primeros términos de la serie de Fibonacci.
