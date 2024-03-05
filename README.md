@@ -24,7 +24,7 @@ $num_terminos = 10;
 
 // Generar la serie de Fibonacci llamando a la función `fibonacci`
 $serie_fibonacci = fibonacci($num_terminos);
-
+```
 b) **Mostrar la Serie de Fibonacci en pantalla:**
 ```php
 // Mostrar la serie de Fibonacci en pantalla
@@ -32,17 +32,19 @@ echo "Serie de Fibonacci hasta el término $num_terminos:\n";
 foreach ($serie_fibonacci as $valor) {
     echo $valor . " "; // Muestra cada término de la serie seguido de un espacio en pantalla
 }
-
+```
 -  Utilizando un bucle foreach, cada término de la serie de Fibonacci se muestra en la pantalla seguido de un espacio.
 
 **Ejemplo de ejecución:**
 
 Para ejecutar el código y obtener los primeros 10 términos de la serie de Fibonacci, simplemente guarda el código PHP en un archivo llamado fibonacci.php y ejecútalo en un servidor PHP. Por ejemplo:
-
+```console
 php fibonacci.php
-
+```
 Esto mostrará la serie de Fibonacci hasta el término 10 en la salida estándar.
 
+```console
 Serie de Fibonacci hasta el término 10:
 0 1 1 2 3 5 8 13 21 34
+```
 
