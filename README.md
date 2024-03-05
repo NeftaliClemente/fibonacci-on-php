@@ -21,7 +21,7 @@ a) **Generación de la Serie:**
 ```php
 // Número de términos en la serie de Fibonacci que deseas mostrar
 $num_terminos = 10;
-```php
+
 // Generar la serie de Fibonacci llamando a la función `fibonacci`
 $serie_fibonacci = fibonacci($num_terminos);
 
