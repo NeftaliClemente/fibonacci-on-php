@@ -18,15 +18,15 @@ El siguiente código PHP genera y muestra en pantalla los primeros términos de 
 - Esta función toma un número entero $n como parámetro y genera la serie de Fibonacci hasta ese término.
 
 a) **Generación de la Serie:**
-
+```php
 // Número de términos en la serie de Fibonacci que deseas mostrar
 $num_terminos = 10;
-
+```php
 // Generar la serie de Fibonacci llamando a la función `fibonacci`
 $serie_fibonacci = fibonacci($num_terminos);
 
 b) **Mostrar la Serie de Fibonacci en pantalla:**
-
+```php
 // Mostrar la serie de Fibonacci en pantalla
 echo "Serie de Fibonacci hasta el término $num_terminos:\n";
 foreach ($serie_fibonacci as $valor) {
